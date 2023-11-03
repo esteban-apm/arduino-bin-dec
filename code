@@ -197,7 +197,7 @@ void convert_decimal()
     digitalWrite(pinC, 0);
     digitalWrite(pinD, 0);
     digitalWrite(pinE, 1);
-    digitalWrite(pinF, 1);
+    digitalWrite(pinF, 0);
     digitalWrite(pinG, 0);
   }
   
