@@ -102,103 +102,103 @@ void convert_decimal()
 {
   if (decimal == 0)
   {
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 1);
+    digitalWrite(pinD, 1);
+    digitalWrite(pinE, 1);
+    digitalWrite(pinF, 1);
+    digitalWrite(pinG, 0);
+  }
+  if (decimal == 1)
+  {
     digitalWrite(pinA, 0);
-    digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 1);
     digitalWrite(pinD, 0);
+    digitalWrite(pinE, 0);
+    digitalWrite(pinF, 0);
+    digitalWrite(pinG, 0);
+  }
+  if (decimal == 2)
+  {
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 0);
+    digitalWrite(pinD, 1);
+    digitalWrite(pinE, 1);
+    digitalWrite(pinF, 0);
+    digitalWrite(pinG, 1);
+  }
+  if (decimal == 3)
+  {
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 1);
+    digitalWrite(pinD, 1);
     digitalWrite(pinE, 0);
     digitalWrite(pinF, 0);
     digitalWrite(pinG, 1);
   }
-  if (decimal == 1)
-  {
-    digitalWrite(pinA, 1);
-    digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
-    digitalWrite(pinD, 1);
-    digitalWrite(pinE, 1);
-    digitalWrite(pinF, 1);
-    digitalWrite(pinG, 1);
-  }
-  if (decimal == 2)
+  if (decimal == 4)
   {
     digitalWrite(pinA, 0);
-    digitalWrite(pinB, 0);
+    digitalWrite(pinB, 1);
     digitalWrite(pinC, 1);
     digitalWrite(pinD, 0);
     digitalWrite(pinE, 0);
     digitalWrite(pinF, 1);
-    digitalWrite(pinG, 0);
-  }
-  if (decimal == 3)
-  {
-    digitalWrite(pinA, 0);
-    digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
-    digitalWrite(pinD, 0);
-    digitalWrite(pinE, 1);
-    digitalWrite(pinF, 1);
-    digitalWrite(pinG, 0);
-  }
-  if (decimal == 4)
-  {
-    digitalWrite(pinA, 1);
-    digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
-    digitalWrite(pinD, 1);
-    digitalWrite(pinE, 1);
-    digitalWrite(pinF, 0);
-    digitalWrite(pinG, 0);
+    digitalWrite(pinG, 1);
   }
   if (decimal == 5)
   {
-    digitalWrite(pinA, 0);
-    digitalWrite(pinB, 1);
-    digitalWrite(pinC, 0);
-    digitalWrite(pinD, 0);
-    digitalWrite(pinE, 1);
-    digitalWrite(pinF, 0);
-    digitalWrite(pinG, 0);
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 0);
+    digitalWrite(pinC, 1);
+    digitalWrite(pinD, 1);
+    digitalWrite(pinE, 0);
+    digitalWrite(pinF, 1);
+    digitalWrite(pinG, 1);
   }
   if (decimal == 6)
   {
-    digitalWrite(pinA, 0);
-    digitalWrite(pinB, 1);
-    digitalWrite(pinC, 0);
-    digitalWrite(pinD, 0);
-    digitalWrite(pinE, 0);
-    digitalWrite(pinF, 0);
-    digitalWrite(pinG, 0);
-  }
-  if (decimal == 7)
-  {
-    digitalWrite(pinA, 0);
+    digitalWrite(pinA, 1);
     digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
+    digitalWrite(pinC, 1);
     digitalWrite(pinD, 1);
     digitalWrite(pinE, 1);
     digitalWrite(pinF, 1);
     digitalWrite(pinG, 1);
   }
-  if (decimal == 8)
+  if (decimal == 7)
   {
-    digitalWrite(pinA, 0);
-    digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 1);
     digitalWrite(pinD, 0);
     digitalWrite(pinE, 0);
     digitalWrite(pinF, 0);
     digitalWrite(pinG, 0);
   }
+  if (decimal == 8)
+  {
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 1);
+    digitalWrite(pinD, 1);
+    digitalWrite(pinE, 1);
+    digitalWrite(pinF, 1);
+    digitalWrite(pinG, 1);
+  }
   if (decimal == 9)
   {
-    digitalWrite(pinA, 0);
-    digitalWrite(pinB, 0);
-    digitalWrite(pinC, 0);
-    digitalWrite(pinD, 0);
-    digitalWrite(pinE, 1);
-    digitalWrite(pinF, 0);
-    digitalWrite(pinG, 0);
+    digitalWrite(pinA, 1);
+    digitalWrite(pinB, 1);
+    digitalWrite(pinC, 1);
+    digitalWrite(pinD, 1);
+    digitalWrite(pinE, 0);
+    digitalWrite(pinF, 1);
+    digitalWrite(pinG, 1);
   }
   
 }
